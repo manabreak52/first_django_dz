@@ -7,3 +7,9 @@ def index(request):
         "date": "07.12.2024"
     }
     return render(request, "index.html", context1)
+def riddle(request):
+    context2 = {}
+    return render(request,"riddle.html", context2)
+def answer(request):
+    context3 = {}
+    return render(request,"answer.html", context3)
