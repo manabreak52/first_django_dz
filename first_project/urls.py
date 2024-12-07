@@ -3,7 +3,7 @@ from django.urls import path
 from first_app.views import index
 from first_app.views import riddle
 from first_app.views import answer
-
+#abc
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',index),
